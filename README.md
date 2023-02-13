@@ -128,3 +128,19 @@ In the case when we have an open trade, we are looking for opportunities to clos
 - Refactor code to make it more readable, e.g. PairsTradingService.Process() method contains too many lines, a purpose of this was to quickly implement a main business logic and easily debug it and find errors
 - Cover code with unit tests
 - Add a web UI to easily control a tool workflow
+
+# Test results
+
+Here you can see examples of Telegram notifications with information about opening/closing trades
+
+- Open trades
+
+![image](https://user-images.githubusercontent.com/40973720/218550964-2b275454-a07e-4f9a-bd1f-47029fc34cce.png)
+
+
+- Close trades
+
+![image](https://user-images.githubusercontent.com/40973720/218550985-e203f3c7-af09-4108-894f-b9320883bff9.png)
+
+
+

@@ -98,19 +98,19 @@ In the case when we have an open trade, we are looking for opportunities to clos
 
 1. Get a list of pairs and trading information from configuration (appsettings.json), example:
 
-` `"TradePairs": [
+  "TradePairs": [
 
-`    `{
+    {
 
-`      `"CryptoCurrency": 0, //USDT
+      "CryptoCurrency": 0, //USDT
 
-`      `"Currency": 3, //UAH
+      "Currency": 3, //UAH
 
-`      `"CryptoAmount": "1000", 
+      "CryptoAmount": "1000", 
 
-`      `"ActionDeviation": "1.8"
+      "ActionDeviation": "1.8"
 
-`    `}
+    }
 
 ]
 
@@ -128,6 +128,3 @@ In the case when we have an open trade, we are looking for opportunities to clos
 - Refactor code to make it more readable, e.g. PairsTradingService.Process() method contains too many lines, a purpose of this was to quickly implement a main business logic and easily debug it and find errors
 - Cover code with unit tests
 - Add a web UI to easily control a tool workflow
-
-# Conclusion:
-As my coursework I developed an automation tool which helps to utilize pairs trading investment strategy. During implementation process I learned more how to build background services in .NET/C#, work with APIs of external services, especially trade exchange APIs such as Binance and WhiteBIT. As well, I learned about different investment strategies. My tool can possibly give about 1% of profit per month from the initial bank, but it requires some business logic and coding improvements.
